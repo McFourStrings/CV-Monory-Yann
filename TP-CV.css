@@ -1,0 +1,586 @@
+ * {
+     margin: 0;
+     padding: 0;
+
+
+     font-family: "Oswald", sans-serif;
+     font-optical-sizing: auto;
+
+     font-style: normal;
+     text-shadow: 0px 0px 10px purple;
+
+
+ }
+
+ @keyframes animationTest {
+     0% {
+         background-position: 0% 25%;
+     }
+
+     25% {
+         background-position: 25% 50%;
+     }
+
+     50% {
+         background-position: 50% 75%;
+     }
+
+     75% {
+         background-position: 75% 100%;
+     }
+
+     100% {
+         background-position: 100%;
+     }
+ }
+
+
+
+ header {
+     display: flex;
+     justify-content: center;
+     flex-direction: row-reverse;
+     color:white;
+     border-bottom: 1px solid purple;
+          background: radial-gradient(circle, rgba(128, 0, 128, 1) 0%, rgba(53, 11, 87, 1) 50%, rgba(27, 4, 46, 1) 100%);
+          box-shadow: 0px 0px 15px purple;
+          
+          margin-bottom: 30px;
+          padding: 20px;
+          transition: box-shadow 5s;
+          background-size: 300% 100%;
+     animation: animationTest 5s linear infinite alternate;
+     animation-fill-mode: both;
+
+ }
+
+
+ header:hover {
+     
+     box-shadow: 0 200px 100px -100px #170328 inset, 0px 0px 15px purple;
+ }
+
+ #texteEntete {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-left: 10px;
+
+ }
+
+ img {
+     border-radius: 50%; 
+      border: 3px solid purple;
+     box-shadow: 0px 0px 15px purple;
+
+
+ }
+
+ body {
+
+     background-color: black;
+ }
+
+ #apropos {
+     display: flex;
+     justify-content: center;
+
+
+ }
+
+
+
+ main {
+     display: flex;
+     flex-direction: column;
+     font-size: larger;
+     gap: 10px;
+     color: white;
+     width: 70%;
+     margin-left: 30px;
+     border: 1px solid purple;
+     border-radius: 20px ;
+     box-shadow: 0px 0px 5px purple;
+          background: radial-gradient(circle, rgba(128, 0, 128, 1) 0%, rgba(53, 11, 87, 1) 50%, rgba(27, 4, 46, 1) 100%);
+
+     padding-left: 10px;
+     margin-bottom: 10px;
+     transition: box-shadow 3s;
+      background-size: 300% 100%;
+     animation: animationTest 5s linear infinite alternate;
+     animation-fill-mode: both;
+
+ }
+
+ main:hover {
+     
+     box-shadow: 0 200px 100px -100px #170328 inset, 0px 0px 5px purple;
+ }
+
+ .row {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     gap: 80px;
+
+ }
+
+ .column {
+     display: flex;
+     flex-direction: column;
+     width: 60%;
+     margin-right: 15px;
+
+ }
+
+ .left {
+
+     display: flex;
+     flex-direction: column;
+     font-size: larger;
+     gap: 10px;
+     color: white;
+     width: 100%;
+     margin-left: 30px;
+     border: 1px solid purple;
+     border-radius: 20px ;
+     box-shadow: 0px 0px 5px purple;
+          background: radial-gradient(circle, rgba(128, 0, 128, 1) 0%, rgba(53, 11, 87, 1) 50%, rgba(27, 4, 46, 1) 100%);
+
+     padding-left: 10px;
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+     transition: box-shadow 3s;
+      background-size: 300% 100%;
+     animation: animationTest 5s linear infinite alternate;
+     animation-fill-mode: both;
+
+
+ }
+
+ .left:hover {
+     
+          box-shadow: 0 200px 100px -100px #170328 inset, 0px 0px 5px purple;
+
+ }
+
+ .titres {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .SousTitres {
+     display: flex;
+     justify-content: start;
+     font-style: oblique;
+ }
+
+ .experiences {
+     font-style: italic;
+     font-size: medium;
+ }
+
+ ul {
+     display: flex;
+     list-style: none;
+     flex-direction: column;
+ }
+
+ li {
+     display: flex;
+     justify-content: center;
+
+ }
+
+ p {
+     display: flex;
+     justify-content: center;
+ }
+
+
+ a:link,
+ a:visited {
+     color: white;
+     text-decoration: none;
+     text-shadow: 0px 0px 10px purple;
+     font-style: italic;
+
+ }
+
+
+ 
+
+
+
+ .right {
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-size: larger;
+     gap: 10px;
+     color: white;
+     width: 20%;
+     margin-left: 30px;
+     
+     border: 1px solid purple;
+     border-radius: 20px ;
+     box-shadow: 0px 0px 5px purple;
+          background: radial-gradient(circle, rgba(128, 0, 128, 1) 0%, rgba(53, 11, 87, 1) 50%, rgba(27, 4, 46, 1) 100%);
+
+     padding-left: 10px;
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+     transition: box-shadow 1s;
+ background-size: 300% 100%;
+     animation: animationTest 5s linear infinite alternate;
+     animation-fill-mode: both;
+
+
+
+ }
+
+ .right:hover {
+               box-shadow: 0 200px 100px -100px #170328 inset, 0px 0px 5px purple;
+
+ }
+
+ .droite {
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     margin-bottom: 10px;
+
+
+
+ }
+
+ .droiterow {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     margin-bottom: 5px;
+
+
+ }
+
+ #EntetePrint {
+     display: none;
+ }
+
+ footer {
+     color: white;
+     padding-top: 10px;
+
+ }
+
+ .separateur {
+     width: 50%;
+     height: 3px;
+     border-radius: 10px;
+     background-color: purple;
+     box-shadow: 0px 0px 25px #170328;
+     
+     margin: 20px;
+ }
+
+ button {
+     color: white;
+     background-color: black;
+     border: 3px solid purple;
+     cursor: pointer;
+     width: 200%;
+     padding-bottom: 20%;
+     padding-top: 20%;
+ }
+
+
+ @media (max-width: 768px) {
+     .row {
+         display: flex;
+         flex-direction: column;
+         width: 90%;
+         padding: 10px;
+     }
+
+     .column {
+         width: 90%;
+     }
+
+     .right {
+         width: 90%;
+         padding: 10px;
+     }
+
+     img {
+         display: none;
+     }
+ }
+
+
+ @media print {
+     @page {
+         size: A4;
+         margin: 0.3cm;
+     }
+
+     * {
+         background-color: white;
+         color: black;
+         text-shadow: none;
+         border: none;
+         margin: 0;
+         box-shadow: none;
+         padding: 0;
+         gap: 0;
+         font-size: 10pt;
+         line-height: 1.1;
+     }
+
+     html,
+     body {
+         margin: 0;
+         padding: 0;
+         height: 100vh;
+         display: flex;
+         flex-direction: column;
+     }
+
+     body {
+         overflow: hidden;
+     }
+
+
+     header {
+         display: none;
+     }
+
+     .row {
+         background-color: white;
+         color: black;
+         text-shadow: none;
+         border: none;
+         margin: 0;
+         box-shadow: none;
+
+         padding: 0;
+     }
+
+     .column {
+         background-color: white;
+         color: black;
+         text-shadow: none;
+         border: none;
+         margin: 0;
+         padding: 0;
+         box-shadow: none;
+
+     }
+
+     main {
+         background-color: white;
+         color: black;
+         text-shadow: none;
+         border: none;
+         margin: 0;
+         box-shadow: none;
+
+         padding: 0;
+     }
+
+     #apropos {
+         background-color: white;
+         color: black;
+         text-shadow: none;
+         border: white;
+         box-shadow: none;
+         margin: 0;
+         padding: 0;
+     }
+
+     .left {
+         background-color: white;
+         color: black;
+         text-shadow: none;
+         border: white;
+         box-shadow: none;
+         margin: 0;
+         padding: 0;
+
+     }
+
+     .right {
+         display: none;
+     }
+
+
+     #projet {
+         display: none;
+     }
+
+     .droite {
+         margin-bottom: 0;
+     }
+
+     .droiterow {
+         margin-bottom: 0;
+     }
+
+     a:link,
+     a:visited {
+         text-decoration: none;
+         color: black;
+         text-shadow: none;
+     }
+
+     .reseaux {
+         display: none;
+     }
+
+     footer {
+         display: none;
+     }
+
+     button {
+         display: none;
+     }
+
+     header:hover {
+         background-color: white;
+         box-shadow: none;
+     }
+
+     main:hover {
+         background-color: white;
+         box-shadow: none;
+     }
+
+     .left:hover {
+         background-color: white;
+         box-shadow: none;
+     }
+
+     .titres {
+         font-weight: bold;
+         font-size: 11pt;
+         margin: 4px 0 2px 0;
+         padding: 0;
+         border-bottom: 0.5px solid #333;
+         line-height: 1;
+     }
+
+     .SousTitres {
+         font-size: 10pt;
+         font-weight: bold;
+         margin: 3px 0 1px 0;
+         padding: 0;
+         line-height: 1;
+     }
+
+     ul {
+         margin: 0;
+         padding: 0 0 0 10px;
+         display: flex;
+         flex-direction: column;
+         gap: 0;
+     }
+
+     li {
+         margin: 0;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         font-size: 10pt;
+         line-height: 1.1;
+     }
+
+     p {
+         margin: 0 !important;
+         padding: 0;
+         font-size: 10pt;
+         line-height: 1.1;
+     }
+
+     main {
+         background-color: white;
+         color: black;
+         text-shadow: none;
+         border: none;
+         margin: 3px 0;
+         box-shadow: none;
+         padding: 0;
+         font-size: 8pt;
+         page-break-inside: avoid;
+         line-height: 1;
+     }
+
+     .left {
+         background-color: white;
+         color: black;
+         text-shadow: none;
+         border: white;
+         box-shadow: none;
+         margin: 3px 0;
+         padding: 0;
+         font-size: 8pt;
+         page-break-inside: avoid;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         gap: 0;
+         line-height: 1;
+     }
+
+     .right:hover {
+         background-color: white;
+         box-shadow: none;
+     }
+
+     .separateur {
+         display: block;
+         margin: 5px auto;
+         background-color: black;
+     }
+
+     #EntetePrint {
+         display: flex;
+         flex-direction: column;
+         gap: 2px;
+         padding: 0 0 8px 0;
+         margin-bottom: 8px;
+         border-bottom: 1px solid black;
+         width: 100%;
+         page-break-after: avoid;
+     }
+
+     #nomPrint {
+         font-size: 17pt;
+         font-weight: bold;
+         margin: 0;
+         padding: 0;
+         text-align: center;
+         width: 100%;
+         line-height: 1;
+     }
+
+     #jobPrint {
+         font-size: 11pt;
+         margin: 0;
+         padding: 0;
+         text-align: left;
+         line-height: 1;
+     }
+
+     .infoPrint {
+         font-size: 10pt;
+         margin: 0 !important;
+         padding: 0 !important;
+         justify-content: flex-end !important;
+         text-align: right;
+         line-height: 1.1;
+     }
+
+ }

@@ -263,6 +263,8 @@
      gap: 10px;
      align-items: center;
      margin-bottom: 5px;
+           justify-content: center;
+
 
 
  }
@@ -303,7 +305,7 @@
     align-items: center;
     justify-content: center;
     gap:2%;
-      margin-right: 20%;
+      
  }
 
 
